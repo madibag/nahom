@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome | @Nahom_d54</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+	<div class="aside-component">
+		<div class="opt"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"  stroke="currentColor" class="w-6 h-6">
+					  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+					</svg>
+		</div>
+		<aside class="sidebar">
+			<div class="aside-container flex">
+				<ul class="list-group mt-4" >
+					<li class="list-item"><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/nahom.dereje.35762" target="_blank">Facebook</a></li>
+					<li class="list-item"><i class="fab fa-instagram"></i><a href="https://www.instagram.com/nahom_d54/" target="_blank">Instagram</a></li>
+					<li class="list-item"><i class="fab fa-telegram-plane"></i><a href="https://telegram.dog/nahom_d54" target="_blank">Telegram</a></li>
+					<li class="list-item"><i class="fab fa-github"></i><a href="https://github.com/nahom-d54" target="_blank">Github</a></li>
+					
+		
+					
+				</ul>
+			</div>
+		</aside>
+		<script>
+			const controller = document.querySelector('.opt');
+			const sidebar = document.querySelector('.sidebar');
+			/*const list_container = sidebar.querySelector('.aside-container');*/
+	
+			controller.addEventListener('click',()=>{
+				sidebar.classList.toggle('show');
+				controller.classList.toggle('view');
+			})
+			/*list_container.addEventListener('mouseleave',()=>{
+				sidebar.classList.remove('show');
+				controller.classList.remove('view');
+			})*/
+		</script>
+	</div>
+	<section class="section">
+		<div class="box">
+			<!-- image-->
+			<!--<img src="https://unsplash.com/photos/f77Bh3inUpE/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjUwMTc3NTgw&force=true&w=1920" alt="Programming" class="backgr">-->
+			<video src="./video.mp4" autoplay muted loop class="backgr"></video>
+			<div class="cov"></div>
+			<div class="container">
+				<h1 class="dev">Nahom Dereje The <span class="txt-type" data-wait="3000" data-words='["Developer","Designer","Creator"]'></span></h1>
+				<h2 class="titles">Welcome To My Website</h2>		
+			</div>
+		</div>
+		<div class="box">
+			<div class="card">
+				
+				<h3><i class="fab fa-html5"></i>HTML</h3>
+				<p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content.</p>
+			</div>
+			<div class="card">
+				
+				<h3><i class="fab fa-css3-alt"></i>CSS</h3>
+				<p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+			</div>
+			<div class="card">
+
+				<h3><i class="fab fa-js"></i>JAVASCRIPT</h3>
+				<p>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+			</div>
+		</div>
+	</section>
+	<script src="main.js"></script>
+</body>
+</html>
