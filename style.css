@@ -150,8 +150,7 @@ body {
 		max-width: 550px;
 	}
 	.box:nth-child(2) .card {
-		margin-top: 20px;
-		margin-bottom: 20px;
+		margin: 20px 10px;
 	}
 
 	.container {
