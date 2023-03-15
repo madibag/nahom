@@ -15,16 +15,16 @@ body {
 	position: absolute;
 	top: 50px;
 	right: 50px;
-	background-color: red;
 }
-.subscribe-button:hover {
+.subscribe-button button:hover {
 	background-color: crimson;
 	cursor: pointer;
 }
-.subscribe-button:active {
+.subscribe-button button:active {
 	scale: 1.2;
 }
 .subscribe-button > button {
+	background-color: red;
 	border: none;
 	color: white;
 	font-size: 1.3rem;
