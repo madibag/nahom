@@ -12,18 +12,24 @@ body {
 }
 
 .subscribe-button {
-	border: none;
-	border-radius: 20px;
 	position: absolute;
 	top: 50px;
 	right: 50px;
+	background-color: red;
+}
+.subscribe-button:hover {
+	background-color: crimson;
+	cursor: pointer;
+}
+.subscribe-button:active {
+	scale: 1.2;
 }
 .subscribe-button > button {
 	border: none;
-	background-color: red;
 	color: white;
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 	padding: 15px 30px;
+	border-radius: 20px;
 }
 .txt-type > .txt {
 	border-right: 0.2rem solid #777;
