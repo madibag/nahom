@@ -23,7 +23,7 @@ body {
 .subscribe-button button:active {
 	scale: 1.2;
 }
-.subscribe-button > button {
+.subscribe-button  button {
 	background-color: red;
 	border: none;
 	color: white;
